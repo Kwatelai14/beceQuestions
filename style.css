@@ -59,6 +59,7 @@ nav {
     /* border: solid 2px; */
     margin: 10px;
     width: 100%;
+    
   }
   
   .two{
@@ -72,6 +73,12 @@ nav {
     /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     color: black;
+    padding-left: 20px;
+
+  }
+
+  .two button{
+    align-items: center;
   }
 
   .three {
@@ -79,8 +86,10 @@ nav {
     background: beige;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
-  .item .two{
+  .item .two {
     margin-left: 50px;
+    justify-content: center;
+    align-items: center;
   }
   a, button{
     display: block;
@@ -88,6 +97,7 @@ nav {
     font-family: 'Ubuntu Mono', monospace, sans-serif;
   }
 
+  
   button{
     margin: 20px;
     align-items: center;
@@ -95,6 +105,7 @@ nav {
     font-size: larger;
     display: flex;
     border-radius: 2px;
+    
   }
 
   #page-button,button{
@@ -104,8 +115,9 @@ nav {
   }
 
   button:hover{
-    background-color: #45e344;
-    border-radius: 40%;
+    background-color: #ff0000;
+    border: none;
+    color: #ffffff;
   }
 
   .objective-subjective-answers {
@@ -126,6 +138,10 @@ nav {
     display: none;
     overflow: hidden;
     background-color: white;
+  }
+  
+  .content-answer:hover{
+    background-color: #45e344;
   }
   
   .active {
