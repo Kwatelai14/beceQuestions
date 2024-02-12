@@ -11,3 +11,11 @@ for (var i = 0; i < accordionHeaders.length; i++) {
     }
   });
 }
+
+
+function scrollUp() {
+  window.scrollUp({
+    top: window.innerHeight,
+    behavior: 'smooth'
+  });
+}
